@@ -1,0 +1,1 @@
+print(format(17*int(input(), 2), 'b'))
