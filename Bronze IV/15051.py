@@ -1,0 +1,7 @@
+A1 = int(input())
+A2 = int(input())
+A3 = int(input())
+T1 = (A3*2*2)+(A2*1*2)
+T2 = (A1*1*2)+(A3*1*2) 
+T3 = (A1*2*2)+(A2*1*2)
+print(min(T1, T2, T3))
