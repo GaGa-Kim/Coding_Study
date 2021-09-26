@@ -5,7 +5,7 @@ D = int(input())
 E = int(input())
 
 if A < 0:
-    print(C*(B-abs(A)))
-elif A == 0:
-    print()
+    time = (abs(A)*C) + D + (B * E)
 else:
+    time = (B - A) * E
+print(time)
