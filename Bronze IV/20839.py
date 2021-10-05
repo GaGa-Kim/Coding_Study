@@ -5,9 +5,9 @@ if x1 <= x2 and y1 <= y2 and z1 <= z2:
     print('A')
 elif x1/2 <= x2 and y1 <= y2 and z1 <= z2: 
     print('B')
-elif x1 > x2 and y1 <= y2 and z1 <= z2: 
+elif y1 <= y2 and z1 <= z2: 
     print('C')
-elif x1 > x2 and y1/2 <= y2 and z1 <= z2:
+elif y1/2 <= y2 and z1 <= z2:
     print('D')
-elif x1 > x2 and y1 > y2 and z1 <= z2:
+else: 
     print('E')
